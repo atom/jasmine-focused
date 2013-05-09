@@ -1,0 +1,27 @@
+{
+  "name": "jasmine-focused",
+  "version": "0.0.0",
+  "description": "Focus jasmine specs",
+  "main": "./index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/atom/jasmine-focused/raw/master/LICENSE.md"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom/jasmine-focused.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atom/jasmine-focused/issues"
+  },
+  "scripts": {
+    "prepublish": "grunt coffee"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-cli": "~0.1.8"
+  }
+}
