@@ -1,4 +1,4 @@
-# Jasmine Focused Node Module
+# Jasmine Focused Node Module [![Build Status](https://travis-ci.org/atom/jasmine-focused.png)](https://travis-ci.org/atom/jasmine-focused)
 
 Adds global functions to run only certain
 [Jasmine](https://github.com/pivotal/jasmine) specs.
