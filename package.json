@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Focus jasmine specs",
   "main": "./index.js",
+  "bin": {
+    "jasmine-focused": "./bin/jasmine-focused"
+  },
   "licenses": [
     {
       "type": "MIT",
