@@ -2,7 +2,7 @@
   "name": "jasmine-focused",
   "version": "0.0.0",
   "description": "Focus jasmine specs",
-  "main": "./index.js",
+  "main": "./jasmine-focused.js",
   "bin": {
     "jasmine-focused": "./bin/jasmine-focused"
   },

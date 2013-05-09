@@ -5,7 +5,7 @@ module.exports = (grunt) ->
     coffee:
       compile:
         files:
-          'index.js': 'index.coffee'
+          'jasmine-focused.js': 'jasmine-focused.coffee'
 
   grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.registerTask('default', ['coffee'])
