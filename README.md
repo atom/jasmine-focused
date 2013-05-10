@@ -13,6 +13,17 @@ This module includes a `jasmine-focused` executable that wraps `jasmine-node`
 allowing you to use the focus functions without adding any additional requires
 to your spec files. It passes through all command line flags to `jasmine-node`.
 
+## Installing
+
+```sh
+npm install jasmine-focused
+```
+
+## Building
+  * Clone the repository
+  * Run `npm install`
+  * Run `grunt` to compile the CoffeeScript
+
 ## Spec functions
   * `fit`
   * `ffit`
