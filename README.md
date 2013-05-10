@@ -11,7 +11,7 @@ For example, a `fit` spec would be run instead of any `it` specs and a
 
 This module includes a `jasmine-focused` executable that wraps `jasmine-node`
 allowing you to use the focus functions without adding any additional requires
-to your spec files.
+to your spec files. It passes through all command line flags to `jasmine-node`.
 
 ## Spec functions
   * `fit`
