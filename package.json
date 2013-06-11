@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/atom/jasmine-focused/issues"
   },
+  "homepage": "http://atom.github.io/jasmine-focused",
   "scripts": {
     "prepublish": "grunt coffee"
   },
