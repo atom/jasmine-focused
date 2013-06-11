@@ -24,7 +24,11 @@ npm install jasmine-focused
   * Run `npm install`
   * Run `grunt` to compile the CoffeeScript
 
-## Spec functions
+## Using
+
+The following function are provides that wrap the standard `it` and `describe`
+Jasmine functions.
+
   * `fit`
   * `ffit`
   * `fffit`
