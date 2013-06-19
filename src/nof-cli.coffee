@@ -1,18 +1,17 @@
 path = require 'path'
 replace = require 'replace'
+_ = require 'underscore'
 
-module.exports = ->
-  if process.argv.length > 2
-    paths = process.argv[2..]
-  else
-    paths = ['spec']
-
+module.exports = (paths...) ->
+  paths = _.flatten(paths)
+  paths = ['spec'] if paths.length is 0
   paths = paths.map (directory) -> path.resolve(process.cwd(), directory)
 
   replace
-    regex: '(^\\s*)f+(it|describe)(\\s+)',
+    regex: '^(\\s*)f+(it|describe)(\\s+)'
     replacement: '$1$2$3'
-    include: '*.js,*.coffee'
+    include: '*.coffee'
     paths: paths
     recursive: true
     silent: true
+    multiline: true
