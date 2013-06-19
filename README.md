@@ -37,3 +37,7 @@ Jasmine functions.
   * `fdescribe`
   * `ffdescribe`
   * `fffdescribe`
+
+You can remove all focused specs by running the bundled `nof` script. This
+script takes a list of directories and defaults to un-focusing all specs
+in the `spec` directory.
