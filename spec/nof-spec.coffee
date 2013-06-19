@@ -1,7 +1,7 @@
 fs = require 'fs'
 path = require 'path'
 temp = require 'temp'
-nof = require '../lib/nof-cli'
+nof = require '../lib/nof'
 
 describe "nof", ->
   it "unfocuses all specs", ->
