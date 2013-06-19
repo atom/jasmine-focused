@@ -11,4 +11,5 @@ module.exports = (grunt) ->
         ext: '.js'
 
   grunt.loadNpmTasks('grunt-contrib-coffee')
+  grunt.registerTask 'clean', -> require('rimraf').sync('lib')
   grunt.registerTask('default', ['coffee'])

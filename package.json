@@ -22,12 +22,13 @@
   },
   "homepage": "http://atom.github.io/jasmine-focused",
   "scripts": {
-    "prepublish": "grunt coffee"
+    "prepublish": "grunt clean coffee"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-coffee": "~0.7.0",
-    "grunt-cli": "~0.1.8"
+    "grunt-cli": "~0.1.8",
+    "rimraf": "~2.1.4"
   },
   "dependencies": {
     "jasmine-node": "~1.7.0",
