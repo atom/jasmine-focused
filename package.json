@@ -2,9 +2,10 @@
   "name": "jasmine-focused",
   "version": "0.2.0",
   "description": "Focus jasmine specs",
-  "main": "./jasmine-focused.js",
+  "main": "./lib/jasmine-focused.js",
   "bin": {
-    "jasmine-focused": "./bin/jasmine-focused"
+    "jasmine-focused": "./bin/jasmine-focused",
+    "nof": "./bin/nof"
   },
   "licenses": [
     {
@@ -29,6 +30,7 @@
     "grunt-cli": "~0.1.8"
   },
   "dependencies": {
-    "jasmine-node": "~1.7.0"
+    "jasmine-node": "~1.7.0",
+    "replace": "~0.2.5"
   }
 }

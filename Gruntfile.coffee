@@ -3,9 +3,12 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON('package.json')
 
     coffee:
-      compile:
-        files:
-          'jasmine-focused.js': 'jasmine-focused.coffee'
+      glob_to_multiple:
+        expand: true
+        cwd: 'src'
+        src: ['*.coffee']
+        dest: 'lib'
+        ext: '.js'
 
   grunt.loadNpmTasks('grunt-contrib-coffee')
   grunt.registerTask('default', ['coffee'])
