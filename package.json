@@ -32,7 +32,7 @@
     "grunt-coffeelint": "0.0.6"
   },
   "dependencies": {
-    "jasmine-node": "~1.9.1",
+    "jasmine-node": "git://github.com/kevinsawicki/jasmine-node.git#5bba833ca672edf978d21418d429c265e937680f",
     "replace": "~0.2.5"
   }
 }
