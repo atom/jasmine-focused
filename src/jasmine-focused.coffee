@@ -39,7 +39,7 @@ jasmine.getEnv().specFilter = (spec) ->
   globalFocusPriority = env.focusPriority
   parent = spec.parentSuite ? spec.suite
 
-  if !globalFocusPriority
+  if not globalFocusPriority
     true
   else if spec.focusPriority >= globalFocusPriority
     true
