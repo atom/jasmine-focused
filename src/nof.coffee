@@ -8,9 +8,9 @@ module.exports = (paths...) ->
   paths = paths.map (directory) -> path.resolve(process.cwd(), directory)
 
   replace
-    regex: '^(\\s*)f+(it|describe)(\\s+)'
+    regex: '^(\\s*)f+(it|describe)((\\s+)|(\\s*\\())'
     replacement: '$1$2$3'
-    include: '*.coffee'
+    include: '*.coffee,*.js'
     paths: paths
     recursive: true
     silent: true
