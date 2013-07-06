@@ -35,7 +35,7 @@
     "grunt-shell": "~0.2.2"
   },
   "dependencies": {
-    "jasmine-node": "git://github.com/kevinsawicki/jasmine-node.git#5560c6c8f66d60d695cef28855f2982c89e04bdc",
+    "jasmine-node": "git://github.com/kevinsawicki/jasmine-node.git#a71d82ef94cfae87588a28650b05d99ed5d60b85",
     "replace": "~0.2.5",
     "underscore": "~1.4.4"
   }
