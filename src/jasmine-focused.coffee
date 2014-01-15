@@ -1,4 +1,4 @@
-jasmine = require 'jasmine-node'
+jasmine = global.jasmine ? require 'jasmine-node'
 
 setGlobalFocusPriority = (priority) ->
   env = jasmine.getEnv()
