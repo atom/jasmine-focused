@@ -1,4 +1,13 @@
-jasmine = global.jasmine ? require 'jasmine-node'
+if global.jasmine?
+  jasmine = global.jasmine
+  unless jasmine.TerminalReporter?
+    path = require 'path'
+    jasmineNodePath = require.resolve('jasmine-node')
+    reporterPath = path.join(path.dirname(jasmineNodePath), 'reporter')
+    {jasmineNode} = require(reporterPath)
+    jasmine.TerminalReporter = jasmineNode.TerminalReporter
+else
+  jasmine = require 'jasmine-node'
 
 setGlobalFocusPriority = (priority) ->
   env = jasmine.getEnv()
