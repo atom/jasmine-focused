@@ -1,3 +1,5 @@
+jasmine = require 'jasmine-node'
+
 setGlobalFocusPriority = (priority) ->
   env = jasmine.getEnv()
   env.focusPriority = 1 unless env.focusPriority
@@ -47,3 +49,5 @@ jasmine.getEnv().specFilter = (spec) ->
     false
   else
     env.specFilter(parent)
+
+module.exports = jasmine
