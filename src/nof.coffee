@@ -1,6 +1,6 @@
 path = require 'path'
 replace = require 'replace'
-_ = require 'underscore'
+_ = require 'underscore-plus'
 
 module.exports = (paths...) ->
   paths = _.flatten(paths)

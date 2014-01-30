@@ -37,6 +37,6 @@
   "dependencies": {
     "jasmine-node": "git://github.com/kevinsawicki/jasmine-node.git#c58b81c4b6a8290a4dc33f7079b74524f18b8cdd",
     "replace": "~0.2.5",
-    "underscore": "~1.5.2"
+    "underscore-plus": "1.x"
   }
 }
