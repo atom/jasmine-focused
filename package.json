@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "jasmine-node": "git://github.com/kevinsawicki/jasmine-node.git#f404be458818e968ecfa3165819153e0fc33ddd7",
-    "replace": "~0.2.5",
-    "underscore-plus": "1.x"
+    "underscore-plus": "1.x",
+    "walkdir": "0.0.7"
   }
 }
