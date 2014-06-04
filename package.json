@@ -1,6 +1,6 @@
 {
   "name": "jasmine-focused",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Focus jasmine specs",
   "main": "./lib/jasmine-focused.js",
   "bin": {
