@@ -5,3 +5,7 @@ notifications:
 
 node_js:
   - 0.8
+
+branches:
+  only:
+    - master
