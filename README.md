@@ -1,4 +1,5 @@
-# Jasmine Focused Node Module
+##### Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+ # Jasmine Focused Node Module
 [![OS X Build Status](https://travis-ci.org/atom/jasmine-focused.png)](https://travis-ci.org/atom/jasmine-focused)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/af0ipfqqxn7aygoe/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/jasmine-focused/branch/master)
 [![Dependency Status](https://david-dm.org/atom/jasmine-focused.svg)](https://david-dm.org/atom/jasmine-focused)
